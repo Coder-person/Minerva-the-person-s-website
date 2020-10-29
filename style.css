@@ -108,18 +108,41 @@ p {
 .links:hover{
     background-color: purple;
 }
-a:hover{
-    background-color:darkblue;
-}
 a{
     text-decoration:none;
 }
 html{
     scroll-behavior:smooth;
 }
-
-
-
+.article:hover{
+    color:pink;
+}
+#apps{
+    height:100%;
+    width:100%;
+    background-color:cornsilk;
+}
+#games{
+    height:100%;
+    width:100%;
+    background-color:azure;
+}
+#artwork{
+    height:100%;
+    width:100%;
+    background-color:burlywood;
+}
+#chatbot{
+    height:100%;
+    width:100%;
+    background-color:darkgrey;
+}
+img{
+    transition: transform 2s; 
+}
+img:hover{
+    transform:scale(0.9);
+}
 
 
 
