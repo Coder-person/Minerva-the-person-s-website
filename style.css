@@ -93,10 +93,11 @@ p {
     top: 1px;
     left: 0px;
     z-index: 10;
-    background: linear-gradient(#f54d3d 0%,#eff53d 100%);
+    background: linear-gradient(#f50052 0%,#f5e900 100%);
     cursor: pointer;  
 }
 .links{
+    display:inline;
     float:left;
     padding-right: 10px;
     padding-left: 20px;
@@ -106,10 +107,12 @@ p {
     font-size:20px;
 }
 .links:hover{
-    background-color: purple;
+    font-size:25;
+    text-decoration:underline;
 }
 a{
-    text-decoration:none;
+    Text-decoration:none;
+    text-shadow: 2px 2px lightblue;
 }
 html{
     scroll-behavior:smooth;
@@ -143,6 +146,25 @@ img{
 img:hover{
     transform:scale(0.9);
 }
+#writings a{
+    text-shadow:none !important;
+    text-decoration:underline !important;
+    color:blue !important;
+}
+#contact {
+    background-color:coral;
+}
+#contact iframe{
+    width:100%;
+}
+.contact_1 h3{
+    display:inline;
+}
+.contact_1 a{
+    text-shadow:none;
+    color:black;
+}
+
 
 
 
